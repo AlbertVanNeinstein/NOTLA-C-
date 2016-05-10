@@ -1,6 +1,6 @@
 #include <iostream>
 #include "stdafx.h"
-#include "Items.h"
+#include "Objects.h"
 
 using namespace std; 
 // Item Creation; Order of values: Name, Flavor text, Type, Attack, Defense, Speed, Health, Special
