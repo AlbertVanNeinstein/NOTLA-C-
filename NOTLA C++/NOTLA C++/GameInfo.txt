@@ -19,4 +19,4 @@ AL3 - Attack. Attack is the amount of Attack added to your base stats from that 
 Al4 - Defense. Defense is a damage reducer that will reduce damage by 0.1% for every point (e.g. If you have an Health stat of 120 and an item with 
 	  a Defensestat of 100, and the enemy you are fighting has an Attack stat of 10, then the attack damage will be reduced by 10%
 	  and you will have 109 Health after 1 attack).
-AL5 - Speed
+AL5 - Speed. Speed is the amount of Speed added to your base stats from an equiped item at a 1:1 ration.
