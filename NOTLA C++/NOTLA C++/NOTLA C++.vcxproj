@@ -143,6 +143,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
+    <Text Include="GameInfo.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Objects.h" />
@@ -150,8 +151,10 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Enemies.cpp" />
     <ClCompile Include="NOTLA C++.cpp" />
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Items.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

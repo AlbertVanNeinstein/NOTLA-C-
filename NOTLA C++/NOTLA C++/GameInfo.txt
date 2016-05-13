@@ -1,0 +1,22 @@
+Stat Information
+
+AL is the place which the stat is located or Array Location (e.g. AL1 is the 1st value in the stat arrays)
+MOSTERS:
+AL1 - Health (HP). Health is the ammount of health you have. If it hits 0, you die and must restart.
+AL2 - Attack. Attack is the ammount of damage you deal to an enemy with 0 armour (e.g. If the enemy health is 25 and the defense stat is 0
+	  and you have an attack stat of 12, then the moster's health will be 13 after 1 attack).
+AL3 - Speed. Speed is the stat that dictates which combatant will attack first (e.g. If you have a speed of 15 and the enemy has a speed of 10, 
+	  you will attack first)
+AL4 - Player Level. Player level is stat that controls the base stats for the player and the amount of damage done to enemies at a lower level. (e.g. If a 
+	  player at Level 1 had 12 Attack and 100 Health, at level 100 they could have 134 Attack and 524 Health, and will do 141 damage to a level 90 enemy.)
+
+ITEMS:
+AL1 - Type. Type is the kind of item that is being used (e.g. if the Type value is 1, then the item is a sword. If it's 2, a bow).
+AL2 - HP. HP on an item is the amount of health it gives you as a percentage added with 1 point being 0.1% more health
+	  (e.g. If you have a bow with a 10 HP and your base player health stat is 100, then you will have 110 Health if no other modifiers are active)
+AL3 - Attack. Attack is the amount of Attack added to your base stats from that item with a 1:1 ratio between the Items Attack and the Players Attack
+	  (e.g. If your base attack stat is 20 and you have a sword equiped with10 attack, then your attack stat will be 30)
+Al4 - Defense. Defense is a damage reducer that will reduce damage by 0.1% for every point (e.g. If you have an Health stat of 120 and an item with 
+	  a Defensestat of 100, and the enemy you are fighting has an Attack stat of 10, then the attack damage will be reduced by 10%
+	  and you will have 109 Health after 1 attack).
+AL5 - Speed

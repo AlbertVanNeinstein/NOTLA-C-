@@ -2,9 +2,26 @@
 #include "stdafx.h"
 #include "Objects.h"
 #include <iostream>
+#include <string>
 using namespace std;
+
+//Items
 void itemSword();
 void itemBow();
 void itemSwordS();
 void itemBowS();
-void player();
+
+//Player
+void playerCombat();
+extern int player[]; //Player Stat Array
+string name; //Player Name String
+
+//Enemies, Nonspecial
+extern int zombie[];
+extern int archer[];
+extern int knight[];
+extern int dog[];
+extern int testStandard[];
+
+//Enemies, Special
+extern int testBoss[];
