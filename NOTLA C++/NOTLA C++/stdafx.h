@@ -6,7 +6,7 @@
 #pragma once
 
 #include "targetver.h"
-
+#include "Objects.h"
 #include <stdio.h>
 #include <tchar.h>
 

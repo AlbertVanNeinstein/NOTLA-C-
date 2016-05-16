@@ -15,6 +15,8 @@ void itemBowS();
 void playerCombat();
 extern int player[]; //Player Stat Array
 string name; //Player Name String
+string combatest;
+extern bool combat;
 
 //Enemies, Nonspecial
 extern int zombie[];
