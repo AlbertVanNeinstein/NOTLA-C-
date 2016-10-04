@@ -145,6 +145,7 @@
     <Text Include="ReadMe.txt" />
     <Text Include="GameInfo.txt" />
     <Text Include="Changelog.txt" />
+    <Text Include="rm.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Index.h" />
@@ -152,6 +153,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="gsv.cpp" />
     <ClCompile Include="NOTLA C++.cpp" />
     <ClCompile Include="Overworld.cpp" />
     <ClCompile Include="stdafx.cpp">

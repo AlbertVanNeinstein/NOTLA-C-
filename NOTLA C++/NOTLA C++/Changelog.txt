@@ -1,2 +1,3 @@
 [Pre-Alpha 0.1]
 	- Add documentation
+	- Added rm.txt to store room information 

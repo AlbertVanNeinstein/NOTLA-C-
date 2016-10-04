@@ -26,7 +26,7 @@ int main()
 	cin >> direction;
 	if (direction == "North" || direction == "north") {
 		cout << "You feel the wind on your back as you leave the cave" << endl;
-		outsideCave(); //Goes
+		outsideCave(); //Goes to room Outside Cave
 	}
 	return 0;
 }

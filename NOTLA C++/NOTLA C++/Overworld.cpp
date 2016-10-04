@@ -6,7 +6,7 @@
 string in = "";
 string direction = "";	
 
-int rmID;
+int rmID = 0;
 
 //Functions
 void survey() {
@@ -15,12 +15,13 @@ void survey() {
 
 //Rooms
 void debug() {
+	rmID = 02;
 	cout << "lel" << endl;	
 }
 
 void outsideCave() {
-	rmID = 01
-		std::cout << "You can look around, view your inventory or do nothing." << "\n>>";
+	rmID = 01;
+	cout << "You can look around, view your inventory or do nothing." << "\n>>";
 	cin >> in;
 	if (in == "Look" || in == "l") {
 		cout << "To the North, you spot a small town through a thick forest, \nyou'll be able to reach it but it will take a couple of days. \n"
