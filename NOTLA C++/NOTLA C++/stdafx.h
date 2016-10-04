@@ -8,7 +8,9 @@
 #include "targetver.h"
 #include "Objects.h"
 #include <stdio.h>
+#include <string>
 #include <tchar.h>
+#include <vector>
 
 
 

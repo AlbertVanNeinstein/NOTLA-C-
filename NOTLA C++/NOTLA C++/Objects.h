@@ -3,6 +3,7 @@
 #include "Objects.h"
 #include <iostream>
 #include <string>
+#include <vector>
 using namespace std;
 
 //Items
@@ -15,8 +16,8 @@ void itemBowS();
 void playerCombat();
 extern int player[]; //Player Stat Array
 string name; //Player Name String
-string combatest;
-extern bool combat;
+void combatTest();
+//vector <string> kek;
 
 //Enemies, Nonspecial
 extern int zombie[];

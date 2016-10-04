@@ -9,3 +9,5 @@ bool combat = false;
 void playerCombat() {
 	cout << "Hello" << endl;
 }
+
+

@@ -19,6 +19,9 @@
     <Text Include="GameInfo.txt">
       <Filter>Source Files</Filter>
     </Text>
+    <Text Include="Changelog.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -27,8 +30,8 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Objects.h">
-      <Filter>Source Files</Filter>
+    <ClInclude Include="Index.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -38,14 +41,13 @@
     <ClCompile Include="NOTLA C++.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Player.cpp">
+    <ClCompile Include="Overworld.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Enemies.cpp">
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="Debug\stdafx.obj">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Items.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    </Object>
   </ItemGroup>
 </Project>
